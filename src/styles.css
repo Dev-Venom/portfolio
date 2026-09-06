@@ -321,8 +321,17 @@ a:focus-visible, button:focus-visible {
 .hero__actions button:hover { transform: translateY(-2px); }
 .hero__primary { color: var(--black); background: var(--ivory); border: 1px solid var(--ivory); }
 .hero__primary:hover { background: var(--red); border-color: var(--red); }
-.hero__secondary { color: var(--ivory); border: 1px solid rgba(238, 232, 220, .34); }
-.hero__secondary:hover { border-color: var(--red); }
+.hero__secondary {
+  color: var(--ivory);
+  background: transparent;
+  border: 1px solid rgba(238, 232, 220, 0.34);
+}
+
+.hero__secondary:hover {
+  color: var(--ivory);
+  background: rgba(209, 24, 34, 0.12);
+  border-color: var(--red);
+}
 
 .hero__portrait {
   position: relative;
