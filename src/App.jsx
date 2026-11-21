@@ -773,7 +773,7 @@ export default function App() {
 
             <figure className="portrait-card">
               <img
-                src={asset("profile-hoodie.png")}
+                src={asset("hero_portrait.png")}
                 alt="Kumaravel wearing a dark hoodie"
                 fetchPriority="high"
               />
