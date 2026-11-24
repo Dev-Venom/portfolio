@@ -773,8 +773,8 @@ export default function App() {
 
             <figure className="portrait-card">
               <img
-                src={asset("hero_portrait.png")}
-                alt="Kumaravel wearing a dark hoodie"
+                src={asset("hero_portrait1.png")}
+                alt="Hero with sporty glasses"
                 fetchPriority="high"
               />
               <figcaption className="portrait-caption">
